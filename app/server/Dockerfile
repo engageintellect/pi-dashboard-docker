@@ -5,7 +5,7 @@ FROM python:3.9-slim
 WORKDIR /app/server
 
 # Copy the current directory contents into the container at /app
-#COPY . /app
+COPY . /app/server
 
 # Install any needed packages specified in requirements.txt
 RUN python -m venv venv && \
