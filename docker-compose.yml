@@ -13,13 +13,13 @@ services:
       - 3000:3000
     restart: always
 
-  # pb:
-    # container_name: svelte-auth-pocketbase
-    # working_dir: /pb
-    # build:
-      # context: ./pb
-    # volumes:
-      # - ./pb/pb_data:/pb/pb_data
-      # - ./pb/pb_migrations:/pb/pb_migrations
-    # ports:
-      # - 8080:8080
+  pb:
+    container_name: svelte-auth-pocketbase
+    working_dir: /pb
+    build:
+      context: ./pb
+    volumes:
+      - ./pb/pb_data:/pb/pb_data
+      - ./pb/pb_migrations:/pb/pb_migrations
+    ports:
+      - 8080:8080
