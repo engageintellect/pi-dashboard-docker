@@ -125,7 +125,9 @@
 <div class="flex flex-col">
 	<div class="mx-auto h-full min-h-screen w-full max-w-2xl p-4">
 		<div class="mx-auto flex w-full flex-col items-center gap-5 px-2">
-			<div class="text-9xl">pi</div>
+			<div class="text-9xl">
+				{piData?.hostname || 'pi'}
+			</div>
 			<div>
 				read the <a class="text-blue-500 underline" href={PUBLIC_GITHUB_URL}>docs</a> for more info.
 			</div>
