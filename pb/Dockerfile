@@ -1,7 +1,7 @@
 FROM alpine:latest
 
 ARG PB_VERSION=0.22.10
-ARG PB_ARCH=linux_amd64
+ARG PB_ARCH=arm64
 
 RUN apk add --no-cache \
     unzip \
