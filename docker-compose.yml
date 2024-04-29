@@ -11,6 +11,7 @@ services:
       - ./app/client/.svelte-kit/:/app/client/.svelte-kit
     ports:
       - 3000:3000
+    restart: always
 
   # pb:
     # container_name: svelte-auth-pocketbase

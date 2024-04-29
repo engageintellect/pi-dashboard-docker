@@ -188,7 +188,7 @@
 					in:fade={{ duration: 500 }}
 					class="absolute left-[29.75%] top-[21%] flex h-[17%] w-[15%] items-center justify-center rounded bg-zinc-800/50 p-2 text-white"
 				>
-					<div class="text-sm sm:text-xl">
+					<div class="avatar text-sm sm:text-xl">
 						{piData.memoryUsed + '%' || 'loading...'}
 					</div>
 				</div>
