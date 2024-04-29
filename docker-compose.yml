@@ -22,4 +22,4 @@ services:
       - ./pb/pb_data:/pb/pb_data
       - ./pb/pb_migrations:/pb/pb_migrations
     ports:
-      - 8080:8080
+      - 8095:8095

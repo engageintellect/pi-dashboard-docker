@@ -5,14 +5,14 @@ services:
     working_dir: /app/client
     build:
       context: ./app/client
-  # pb:
-  #   container_name: svelte-auth-pocketbase
-  #   working_dir: /pb
-  #   build:
-  #   context: ./pb
-  # volumes:
-  #   - ./pb/pb_data:/pb/pb_data
-  #   - ./pb/pb_migrations:/pb/pb_migrations
+  pb:
+    container_name: svelte-auth-pocketbase
+    working_dir: /pb
+    build:
+    context: ./pb
+  volumes:
+    - ./pb/pb_data:/pb/pb_data
+    - ./pb/pb_migrations:/pb/pb_migrations
 
   nginx:
     container_name: pi-friday
