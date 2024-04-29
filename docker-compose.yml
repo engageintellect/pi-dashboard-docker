@@ -1,0 +1,24 @@
+version: "3"
+services:
+  app:
+    container_name: pi-friday
+    working_dir: /app/client
+    build:
+      context: ./app/client
+      target: dev
+    volumes:
+      - ./app/client/src:/app/client/src
+      - ./app/client/.svelte-kit/:/app/client/.svelte-kit
+    ports:
+      - 3000:3000
+
+  # pb:
+    # container_name: svelte-auth-pocketbase
+    # working_dir: /pb
+    # build:
+      # context: ./pb
+    # volumes:
+      # - ./pb/pb_data:/pb/pb_data
+      # - ./pb/pb_migrations:/pb/pb_migrations
+    # ports:
+      # - 8080:8080
