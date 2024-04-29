@@ -1,7 +1,7 @@
 version: "3"
 services:
   app:
-    container_name: pi-friday
+    container_name: pi-dashboard-client
     working_dir: /app/client
     build:
       context: ./app/client
@@ -14,7 +14,7 @@ services:
     restart: always
 
   pb:
-    container_name: svelte-auth-pocketbase
+    container_name: pi-dashboard-pb
     working_dir: /pb
     build:
       context: ./pb
