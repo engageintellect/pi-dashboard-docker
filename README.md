@@ -1,5 +1,7 @@
 # pi-dashboard-docker
 
+![image](/pi-dashboard.png)
+
 ## Description
 
 This project is a dockerized version of the [pi-dashboard](https://github.com/engageintellect/pi) project.
