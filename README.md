@@ -25,11 +25,11 @@ This project is a dockerized version of the [pi-dashboard](https://github.com/en
 
 ### Server
 
-Copy `.env.example` to `.env` and fill in your values.
+Copy `/app/server/.env.example` to `/app/server/.env` and fill in your values.
 
 ### Client
 
-Copy `.env.example` to `.env` and fill in your values.
+Copy `/app/client/.env.example` to `/app/client/.env` and fill in your values.
 
 ### Run docker container
 
