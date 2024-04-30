@@ -42,8 +42,8 @@ services:
       - ./nginx.conf:/nginx.conf
       - /etc/letsencrypt:/etc/letsencrypt
     ports:
-      - 8080:8080
-      - 8443:8443
+      - 80:80
+      - 443:443
     depends_on:
       - app
       - server

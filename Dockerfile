@@ -15,7 +15,7 @@ RUN mkdir -p /etc/letsencrypt/live/example.com \
 # COPY privkey.pem /etc/letsencrypt/live/example.com/privkey.pem
 
 # Expose ports for HTTP and HTTPS
-EXPOSE 8080 8443
+EXPOSE 80 443
 
 # Start Nginx when the container starts
 CMD ["nginx", "-g", "daemon off;"]
