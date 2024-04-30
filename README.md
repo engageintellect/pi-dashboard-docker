@@ -20,3 +20,17 @@ This project is a dockerized version of the [pi-dashboard](https://github.com/en
   - Websocket for real-time updates
 - PB [Pocketbase](https://pocketbase.io)
   - Database for storing server data
+
+
+## Getting Started
+
+### Server
+Copy `.env.example` to `.env` and fill in your values.
+
+### Client
+Copy `.env.example` to `.env` and fill in your values.
+
+### Run docker container
+```bash
+docker compose up --build -d
+```
