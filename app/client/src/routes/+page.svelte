@@ -133,7 +133,7 @@
 			</div>
 			<div class="mx-auto my-5 flex w-full gap-2">
 				<a
-					href="/#services"
+					href="#services"
 					class="group flex w-full items-center justify-between gap-2 rounded bg-neutral-900 px-4 py-2 text-white"
 				>
 					<div>services</div>
