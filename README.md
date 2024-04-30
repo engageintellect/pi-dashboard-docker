@@ -25,6 +25,13 @@ This project is a dockerized version of the [pi-dashboard](https://github.com/en
 
 ## Getting Started
 
+### Clone the repository
+
+```bash
+git clone https://github.com/engageintellect/pi-dashboard-docker.git
+cd pi-dashboard-docker
+```
+
 ### Server
 
 Copy `/app/server/.env.example` to `/app/server/.env` and fill in your values.
