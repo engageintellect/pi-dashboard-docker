@@ -144,6 +144,7 @@
 				</a>
 				<a
 					href={PUBLIC_POCKETBASE_URL}
+					target="_blank"
 					class="group flex w-full items-center justify-between gap-2 rounded bg-neutral-900 px-4 py-2 text-white"
 				>
 					<div>db</div>
@@ -154,6 +155,7 @@
 				</a>
 				<a
 					href={'/api'}
+					target="_blank"
 					class="group flex w-full items-center justify-between gap-2 rounded bg-neutral-900 px-4 py-2 text-white"
 				>
 					<div>api</div>
