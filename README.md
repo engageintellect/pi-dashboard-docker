@@ -1,6 +1,6 @@
 # pi-dashboard-docker
 
-![image](/pi-dashboard.png)
+[![image](/pi-dashboard.png)](https://pi.engage-dev.com:8443/docker/)
 
 ## Description
 
