@@ -8,7 +8,7 @@ This project is a dockerized version of the [pi-dashboard](https://github.com/en
 
 ## Features
 
-- Client dashboard
+- **Client**
   - Server status
   - Server uptime
   - CPU usage
@@ -17,10 +17,10 @@ This project is a dockerized version of the [pi-dashboard](https://github.com/en
   - Open Ports
   - Running Processes
   - Available updates
-- Server (Python [FastAPI](https://fastapi.tiangolo.com/))
+- **Server** (Python [FastAPI](https://fastapi.tiangolo.com/))
   - API's for client dashboard
   - Websocket for real-time updates
-- PB [Pocketbase](https://pocketbase.io)
+- **PB** [Pocketbase](https://pocketbase.io)
   - Database for storing server data
 
 ## Getting Started
